@@ -82,7 +82,7 @@ public class StreamLabController {
 
     // <><> C Actions (Create) <><>
 
-    @PostMapping("/CDemoOne")
+    @GetMapping("/CDemoOne")
     public User PostDemoOne() {
     	return service.CDemoOne();
     }
